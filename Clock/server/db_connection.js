@@ -1,8 +1,8 @@
 var mysql = require('mysql2');
 
 var con = mysql.createConnection({
-  host: "db.redhawks.us",
-  user: "redhawks_css",
+  host: "ec2-54-209-177-70.compute-1.amazonaws.com",
+  user: "css",
   password: "oPPtWFk9r2Ne1PTbHN1z"
 });
 
